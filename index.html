@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>KHO MAY PTB</title>
-  
-  <!-- DÒNG NÀY ĐỂ HIỂN THỊ LOGO TRÊN TAB TRÌNH DUYỆT -->
-  <link rel="icon" href="https://dcanktmay.github.io/KhoMayPTB/logo.png" type="image/png">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-    iframe {
-      position: absolute; top: -20px; left: 0; width: 100%; height: 110%;
-      border: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Hệ Thống Quản Lý Kho - MAY PBT</title>
+    <!-- Link logo của bạn -->
+    <link rel="icon" href="https://dcanktmay.github.io/KhoMayPTB/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0; padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex; justify-content: center; align-items: center;
+            height: 100vh; background-color: #f0f2f5;
+        }
+        .container {
+            text-align: center; padding: 50px 40px;
+            background: white; border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 400px; width: 90%;
+        }
+        .logo { width: 120px; height: auto; margin-bottom: 20px; }
+        h1 { color: #1a73e8; font-size: 24px; margin-bottom: 10px; }
+        p { color: #5f6368; font-size: 15px; margin-bottom: 35px; line-height: 1.5; }
+        .btn-start {
+            display: inline-block; padding: 15px 35px;
+            font-size: 16px; font-weight: bold; color: white;
+            background-color: #1a73e8; text-decoration: none;
+            border-radius: 8px; transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(26,115,232,0.3);
+        }
+        .btn-start:hover {
+            background-color: #1557b0;
+            box-shadow: 0 6px 12px rgba(26,115,232,0.4);
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 <body>
-  <iframe src="https://script.google.com/macros/s/AKfycbw8PLPlNZnWOtGK3IFKfbTlmZk45hR3iPI52TOF4WwzBHVCHHnaT_voYDPj8TOytgOfDw/exec"></iframe>
+
+    <div class="container">
+        <!-- Hiện thị logo của bạn -->
+        <img class="logo" src="https://dcanktmay.github.io/KhoMayPTB/logo.png" alt="Logo MAY PBT">
+        
+        <h1>KHO MAY PBT</h1>
+        <p>Hệ thống được bảo mật bởi Google. Vui lòng nhấn nút bên dưới để mở ứng dụng quản lý.</p>
+        
+        <!-- THAY ĐƯỜNG LINK /EXEC CỦA BẠN VÀO DÒNG BÊN DƯỚI -->
+        <a href="https://script.google.com/macros/s/AKfycbxKovzZe6-POdyaGyjqjr4HsDwq4fCY5fax99BfDaTZZXb1bgDumcL03ilCMlKelMOOMw/exec" target="_blank" class="btn-start">
+            🚀 MỞ TRANG QUẢN LÝ
+        </a>
+    </div>
+
 </body>
 </html>
